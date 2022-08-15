@@ -28,7 +28,7 @@ public class LivroDTO  implements Serializable {
 	@Length(min = 10, max = 2000000, message = "O Campo TEXTO deve ter entre 10 e 2 milhões caracteres")
 	private String texto;
 	
-	private CategoriaDTO categoria; // Traz os dados da categoria no momento da busca
+	//private CategoriaDTO categoria; // Traz os dados da categoria no momento da busca
 	
 	public LivroDTO() {
 		super();
